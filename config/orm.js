@@ -37,6 +37,7 @@ let orm = {
         cb(result);
       });
     },
+    
     insertOne: (table, cols, vals, cb) => {
       let queryString = "INSERT INTO " + table;
   
@@ -75,6 +76,7 @@ let orm = {
         cb(result);
       });
     },
+
     delete: function(table, condition, cb) {
       let queryString = "DELETE FROM " + table;
       queryString += " WHERE ";
@@ -84,11 +86,9 @@ let orm = {
         if (err) {
           throw err;
         }
-  
         cb(result);
       });
     }
   };
-  
   // Exports ORM object
   module.exports = orm;
