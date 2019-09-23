@@ -1,6 +1,6 @@
 $(function() {
 
-    // Add a new burger.
+    // Adds a new burger
     $(".create-form").on("submit", function(event) {
         event.preventDefault();
 

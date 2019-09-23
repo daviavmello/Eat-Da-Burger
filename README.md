@@ -3,14 +3,14 @@ Eat-Da-Burger is a burger logger with MySQL, Node, Express, Handlebars and a hom
 
 
 ### Built With:
-Javascript
-JQuery
-CSS
-Bootstrap
-Materialize Icons
-MySQL
-Node
-Express
+* Javascript
+* JQuery
+* CSS
+* Bootstrap
+* Materialize Icons
+* MySQL
+* Node
+* Express
 
 ### File Structure
 ```
@@ -50,5 +50,4 @@ Express
 ```
 ### Check it out on Heroku
 
-See the link [here]()
-
+See the app [here](https://eat-da-burger-dm.herokuapp.com/)

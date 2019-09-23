@@ -2,12 +2,17 @@ body {
     background-color: #111;
 }
 
-h2 {
+h2, h1 {
     color: #c5c5c5;
+}
+
+h2 {
+    font-weight: lighter;
 }
 
 .col-sm, .row {
     margin: 40px 0;
+    padding: 0;
 }
 
 #lefthead, #righthead {
