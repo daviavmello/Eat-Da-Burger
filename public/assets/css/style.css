@@ -1,0 +1,22 @@
+body {
+    background-color: #111;
+}
+
+h2 {
+    color: #c5c5c5;
+}
+
+.col-sm, .row {
+    margin: 40px 0;
+}
+
+#lefthead, #righthead {
+    color: goldenrod;
+    font-weight: lighter;
+}
+
+ul {
+    margin: 10px auto;
+    color: #c5c5c5;
+    padding: 0;
+}
